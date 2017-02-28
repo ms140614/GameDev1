@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DoorOpen
+  m_Name: DoorClose
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -17,14 +17,14 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: -1.3703977, z: 0}
-        outSlope: {x: 0, y: -1.3703977, z: 0}
+        value: {x: 0, y: 90, z: 0}
+        inSlope: {x: 0, y: 10.519963, z: 0}
+        outSlope: {x: 0, y: 10.519963, z: 0}
         tangentMode: 0
       - time: 1
-        value: {x: 0, y: 90.70076, z: 0}
-        inSlope: {x: 0, y: 90.70076, z: 0}
-        outSlope: {x: 0, y: 90.70076, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: -3.4138875, z: 0}
+        outSlope: {x: 0, y: -3.4138875, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -93,14 +93,14 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 0
-        inSlope: -1.3703977
-        outSlope: -1.3703977
+        value: 90
+        inSlope: 10.519963
+        outSlope: 10.519963
         tangentMode: 0
       - time: 1
-        value: 90.70076
-        inSlope: 90.70076
-        outSlope: 90.70076
+        value: 0
+        inSlope: -3.4138875
+        outSlope: -3.4138875
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -116,7 +116,7 @@ AnimationClip:
         value: 0
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 10
       - time: 1
         value: 0
         inSlope: 0
